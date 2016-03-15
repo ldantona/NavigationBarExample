@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-258" y="417"/>
         </scene>
-        <!--View Controller-->
+        <!--First-->
         <scene sceneID="L7K-kw-6VN">
             <objects>
-                <viewController id="cZa-3p-NCc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="First" id="cZa-3p-NCc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Di-cb-U3u"/>
                         <viewControllerLayoutGuide type="bottom" id="eLo-Mo-T20"/>
@@ -36,7 +36,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="TrW-QV-DmF">
+                    <navigationItem key="navigationItem" title="First" id="TrW-QV-DmF">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="pgi-w0-wma"/>
                         <barButtonItem key="rightBarButtonItem" title="Next" id="Rwl-pm-EW9">
                             <connections>
                                 <segue destination="Jdg-V7-keU" kind="show" id="wvP-bv-QJA"/>
@@ -48,10 +49,10 @@
             </objects>
             <point key="canvasLocation" x="204" y="417"/>
         </scene>
-        <!--View Controller-->
+        <!--Second-->
         <scene sceneID="YeW-d8-lmH">
             <objects>
-                <viewController id="Jdg-V7-keU" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Second" id="Jdg-V7-keU" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JxN-cM-TOi"/>
                         <viewControllerLayoutGuide type="bottom" id="KcT-p6-OST"/>
@@ -61,7 +62,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xzF-pH-rsT">
+                    <navigationItem key="navigationItem" title="Second" id="xzF-pH-rsT">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="yAD-dF-2cd"/>
                         <barButtonItem key="rightBarButtonItem" title="Next" id="bBD-vF-UZu">
                             <connections>
                                 <segue destination="dyO-be-035" kind="show" id="ieh-lB-pAS"/>
@@ -73,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="657" y="417"/>
         </scene>
-        <!--View Controller-->
+        <!--Third-->
         <scene sceneID="vvD-JP-fvN">
             <objects>
-                <viewController id="dyO-be-035" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="Third" id="dyO-be-035" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Lr-KX-iPo"/>
                         <viewControllerLayoutGuide type="bottom" id="kgY-bc-dAn"/>
