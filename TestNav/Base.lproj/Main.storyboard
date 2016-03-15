@@ -51,7 +51,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="indietro:" destination="cZa-3p-NCc" eventType="touchUpInside" id="jat-xh-w56"/>
+                                    <action selector="backward:" destination="cZa-3p-NCc" eventType="touchUpInside" id="vmb-r7-hw2"/>
                                 </connections>
                             </button>
                         </subviews>

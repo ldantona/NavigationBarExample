@@ -18,7 +18,7 @@
     [self.navigationController setNavigationBarHidden:(self.navigationController.viewControllers.count % 2 == 0) animated:animated];
 }
 
-- (IBAction)indietro:(id)sender {
+- (IBAction)backward:(id)sender {
     if (self.navigationController.viewControllers.count > 1)
     {
         [self.navigationController popViewControllerAnimated:YES];
