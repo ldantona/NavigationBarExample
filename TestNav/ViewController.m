@@ -15,7 +15,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:(self.navigationController.viewControllers.count % 2 == 0) animated:animated];
+    [self.navigationController setNavigationBarHidden:(self.navigationController.viewControllers.count == 3) animated:animated];
 }
 
 - (IBAction)backward:(id)sender {
